@@ -12,6 +12,6 @@ public class Programa10 {
     public void iva(){
         System.out.println("Introduce el precio del articulo sin IVA: ");
         double precio = sc.nextInt();
-        System.out.println("El precio del articulo con IVA es: "+(precio*0.16));
+        System.out.println("El precio del articulo con IVA es: "+((precio)+(precio*0.16)));
     }
 }
